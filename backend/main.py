@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="GameVault API", version="0.1.0")
+app = FastAPI(title="Joystock API", version="0.1.0")
 
 @app.get("/")
 def root():
-    return {"message": "GameVault API is running"}
+    return {"message": "Joystock API is running"}
 
